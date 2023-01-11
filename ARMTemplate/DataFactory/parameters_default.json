@@ -1,0 +1,70 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscription": {
+            "value": "061b4e23-4b07-4fcf-8c73-8a879ce2715e"
+        },
+        "resourceGroup": {
+            "value": "test3"
+        },
+        "name": {
+            "value": "test3raydatafactory"
+        },
+        "version": {
+            "value": "V2"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "vNetEnabled": {
+            "value": false
+        },
+        "publicNetworkAccess": {
+            "value": true
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "gitConfigureLater": {
+            "value": false
+        },
+        "gitRepoType": {
+            "value": "FactoryGitHubConfiguration"
+        },
+        "gitAccountName": {
+            "value": "https://github.com/ray-chunkit-chung"
+        },
+        "gitRepositoryName": {
+            "value": "https://github.com/ray-chunkit-chung/essential-azure-data-factory"
+        },
+        "gitCollaborationBranch": {
+            "value": "main"
+        },
+        "gitRootFolder": {
+            "value": "/"
+        },
+        "tagsByResource": {
+            "value": {
+                "Microsoft.DataFactory/factories": {
+                    "group": "test3"
+                }
+            }
+        },
+        "userAssignedIdentitiesStr": {
+            "value": "{\"type\": \"SystemAssigned,UserAssigned\", \"userAssignedIdentities\": {\"\": {}"
+        },
+        "vaultBaseUrl": {
+            "value": ""
+        },
+        "keyName": {
+            "value": ""
+        },
+        "keyVersion": {
+            "value": ""
+        },
+        "enableCMK": {
+            "value": false
+        }
+    }
+}
