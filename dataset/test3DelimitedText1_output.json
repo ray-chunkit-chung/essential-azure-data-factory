@@ -1,5 +1,5 @@
 {
-	"name": "test3DelimitedText1",
+	"name": "test3DelimitedText1_output",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "test3AzureBlobStorage1",
@@ -10,24 +10,14 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "demo_dataset001.csv",
-				"container": "test3"
+				"fileName": "demo_dataset002.csv",
+				"container": "test3output"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"type": "String"
-			},
-			{
-				"type": "String"
-			},
-			{
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
