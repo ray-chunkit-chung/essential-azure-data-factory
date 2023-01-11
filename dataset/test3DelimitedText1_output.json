@@ -1,0 +1,23 @@
+{
+	"name": "test3DelimitedText1_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "test3AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "demo_dataset002.csv",
+				"container": "test3output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

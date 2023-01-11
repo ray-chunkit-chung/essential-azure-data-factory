@@ -1,0 +1,9 @@
+{
+	"name": "test3raydatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c11fd6cd-6c80-4fcc-9325-746923c98446",
+		"tenantId": "690f9535-d196-4f3f-9c24-bddaf569d678"
+	}
+}
